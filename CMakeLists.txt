@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.27)
 
 project(sma VERSION 0.0.1)
 
-set(ENABLE_TESTS OFF CACHE BOOL "" FORCE)
+set(ENABLE_TESTS OFF CACHE BOOL "")
 if (ENABLE_TESTS) 
     include(FetchContent)
     FetchContent_Declare(
