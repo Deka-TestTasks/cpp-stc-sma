@@ -21,3 +21,4 @@ if (ENABLE_TESTS)
 endif()
 
 add_subdirectory(lib)
+add_subdirectory(generate)
