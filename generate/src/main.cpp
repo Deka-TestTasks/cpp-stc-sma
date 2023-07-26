@@ -9,7 +9,7 @@
 
 #include <sma.hpp>
 
-const int DATA_SIZE = 1'000'000;
+const int DATA_SIZE = 10'000'000;
 const float MIN_RANDOM_VALUE = -1000.0f;
 const float MAX_RANDOM_VALUE = 1000.0f;
 
