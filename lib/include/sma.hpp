@@ -5,7 +5,9 @@
 #include <vector>
 
 template <typename T> std::vector<T> sma(const std::vector<T> &in, int k) {
-  static_assert(std::is_floating_point<T>::value);
+  static_assert(
+      std::is_floating_point<T>::value,
+      "function sma intended to use only with floating point numbers");
   assert(0 < k);
 
   std::vector<T> out;
